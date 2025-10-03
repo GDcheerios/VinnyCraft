@@ -1,0 +1,35 @@
+
+["Config for souls awakening"]
+	#Randomize the abilities you get when unlocking shikai
+	"Randomized shikai abilities" = false
+	#Handles the way you get your element for your shikai
+	#KILL-HOLLOW: Killing hollows to earn element points that influence what you get
+	#RANDOM: Completely random, do not need to kill hollows for it
+	"Zanpakuto path way" = "KILL-HOLLOW"
+	#Range hollows will follow and find entities for
+	"Follow range for hollows" = 50
+	#Spawn rate for the thorns hollow
+	"Spawn rate: thorns hollow" = 5
+	#Needed hollow points to evolve to the next stage of hollow
+	"hollow points for evolution" = 50
+	#Amount of time a spirit has until it becomes a hollow in seconds
+	"spirit chain time" = 400
+	#Amount of maximal stats you can have in total
+	"max total stats" = 100
+	#This handles the amount of zanjutsu you need to activate your shikai as shinigami
+	"Zanpakuto zanjutsu needed" = 20
+	#Spawn rate for the golem hollow
+	"Spawn rate: golem hollow" = 5
+	#Spawn rate for pluses
+	"Spawn rate: pluses" = 20
+	#Spawn rate for shinigami
+	"Spawn rate: shinigami" = 20
+	#Spawn rate for the ape hollow
+	"Spawn rate: ape hollow" = 5
+	#Spawn rate for the flying hollow
+	"Spawn rate: flying hollow" = 5
+	#Spawn rate for traders
+	"Spawn rate: traders" = 10
+	#Spawn rate for the spider hollow
+	"Spawn rate: spider hollow" = 5
+

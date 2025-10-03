@@ -1,0 +1,483 @@
+
+[general]
+	#
+	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
+	blacklist = "minecraft:ender_dragon"
+
+	#Passive Mob Hp bar
+	[general.passive]
+		#Health Bar Type
+		#Range: > 0
+		type = 12
+		#X Position
+		#Range: > -2147483648
+		x-pos = -100
+		#Y Position
+		#Range: > -2147483648
+		y-pos = -10
+		#scale
+		#Range: > 0
+		scale = 80
+		#Render Distance
+		#Range: > 0
+		render-distance = 1500
+		#Frame Red Color
+		#Range: > 0
+		frame_red = 255
+		#Frame Green Color
+		#Range: > 0
+		frame_green = 255
+		#Frame Blue Color
+		#Range: > 0
+		frame_blue = 255
+		#Frame Opacity
+		#Range: > 0
+		frame_opacity = 255
+		#Hp Red Color
+		#Range: > 0
+		hp_red = 0
+		#Hp Green Color
+		#Range: > 0
+		blue_green = 160
+		#Hp Blue Color
+		#Range: > 0
+		hp_blue = 0
+		#Hp Opacity
+		#Range: > 0
+		hp_opacity = 255
+		#Hp Bg Red Color
+		#Range: > 0
+		hp_bg_red = 250
+		#Hp Bg Green Color
+		#Range: > 0
+		hp_bg_green = 140
+		#Hp Bg Blue Color
+		#Range: > 0
+		hp_bg_blue = 130
+		#Hp Bg Opacity
+		#Range: > 0
+		hp_bg_opacity = 255
+		#Hp Text Red
+		#Range: > 0
+		text_red = 255
+		#Hp Text Green
+		#Range: > 0
+		text_green = 255
+		#Hp Text Blue
+		#Range: > 0
+		text_blue = 255
+		#Hp Text Opacity
+		#Range: > 0
+		text_opacity = 174
+		#Hp toggle all
+		#Range: 0 ~ 1
+		toggle_all = 0
+		#Hp Bg type
+		#Range: > 0
+		bg_type = 0
+		#Hp type
+		#Range: > 0
+		hp_type = 0
+		#Text x position
+		#Range: > -2147483648
+		text_x = 0
+		#Text y position
+		#Range: > -2147483648
+		text_y = 0
+		#Text Size
+		#Range: > 0
+		text_scale = 100
+		#Frame 2 type
+		#Range: > 0
+		frame2_type = 10
+		#Frame 2 red color
+		#Range: > 0
+		frame2_red_color = 255
+		#Frame 2 green color
+		#Range: > 0
+		frame2_green_color = 0
+		#Frame 2 blue color
+		#Range: > 0
+		frame2_blue_color = 0
+		#Frame 2 Opacity
+		#Range: > 0
+		frame2_opacity = 255
+
+	#Neutral Mob Hp bar
+	[general.neutral]
+		#Health Bar Type
+		#Range: > 0
+		type = 25
+		#X Position
+		#Range: > -2147483648
+		x-pos = -105
+		#Y Position
+		#Range: > -2147483648
+		y-pos = -20
+		#scale
+		#Range: > 0
+		scale = 80
+		#Render Distance
+		#Range: > 0
+		render-distance = 1500
+		#Frame Red Color
+		#Range: > 0
+		frame_red = 153
+		#Frame Green Color
+		#Range: > 0
+		frame_green = 138
+		#Frame Blue Color
+		#Range: > 0
+		frame_blue = 151
+		#Frame Opacity
+		#Range: > 0
+		frame_opacity = 255
+		#Hp Red Color
+		#Range: > 0
+		hp_red = 255
+		#Hp Green Color
+		#Range: > 0
+		blue_green = 255
+		#Hp Blue Color
+		#Range: > 0
+		hp_blue = 0
+		#Hp Opacity
+		#Range: > 0
+		hp_opacity = 255
+		#Hp Bg Red Color
+		#Range: > 0
+		hp_bg_red = 177
+		#Hp Bg Green Color
+		#Range: > 0
+		hp_bg_green = 130
+		#Hp Bg Blue Color
+		#Range: > 0
+		hp_bg_blue = 130
+		#Hp Bg Opacity
+		#Range: > 0
+		hp_bg_opacity = 255
+		#Hp Text Red
+		#Range: > 0
+		text_red = 0
+		#Hp Text Green
+		#Range: > 0
+		text_green = 0
+		#Hp Text Blue
+		#Range: > 0
+		text_blue = 0
+		#Hp Text Opacity
+		#Range: > 0
+		text_opacity = 156
+		#Hp toggle all
+		#Range: 0 ~ 1
+		toggle_all = 0
+		#Hp Bg type
+		#Range: > 0
+		bg_type = 0
+		#Hp type
+		#Range: > 0
+		hp_type = 0
+		#Text x position
+		#Range: > -2147483648
+		text_x = 0
+		#Text y position
+		#Range: > -2147483648
+		text_y = 0
+		#Text Size
+		#Range: > 0
+		text_scale = 100
+		#Frame 2 type
+		#Range: > 0
+		frame2_type = 0
+		#Frame 2 red color
+		#Range: > 0
+		frame2_red_color = 0
+		#Frame 2 green color
+		#Range: > 0
+		frame2_green_color = 0
+		#Frame 2 blue color
+		#Range: > 0
+		frame2_blue_color = 0
+		#Frame 2 Opacity
+		#Range: > 0
+		frame2_opacity = 0
+
+	#Hostile Mob Hp bar
+	[general.hostile]
+		#Health Bar Type
+		#Range: > 0
+		type = 0
+		#X Position
+		#Range: > -2147483648
+		x-pos = -110
+		#Y Position
+		#Range: > -2147483648
+		y-pos = -35
+		#scale
+		#Range: > 0
+		scale = 80
+		#Render Distance
+		#Range: > 0
+		render-distance = 1500
+		#Frame Red Color
+		#Range: > 0
+		frame_red = 255
+		#Frame Green Color
+		#Range: > 0
+		frame_green = 255
+		#Frame Blue Color
+		#Range: > 0
+		frame_blue = 0
+		#Frame Opacity
+		#Range: > 0
+		frame_opacity = 255
+		#Hp Red Color
+		#Range: > 0
+		hp_red = 151
+		#Hp Green Color
+		#Range: > 0
+		blue_green = 0
+		#Hp Blue Color
+		#Range: > 0
+		hp_blue = 0
+		#Hp Opacity
+		#Range: > 0
+		hp_opacity = 255
+		#Hp Bg Red Color
+		#Range: > 0
+		hp_bg_red = 30
+		#Hp Bg Green Color
+		#Range: > 0
+		hp_bg_green = 0
+		#Hp Bg Blue Color
+		#Range: > 0
+		hp_bg_blue = 0
+		#Hp Bg Opacity
+		#Range: > 0
+		hp_bg_opacity = 255
+		#Hp Text Red
+		#Range: > 0
+		text_red = 255
+		#Hp Text Green
+		#Range: > 0
+		text_green = 255
+		#Hp Text Blue
+		#Range: > 0
+		text_blue = 255
+		#Hp Text Opacity
+		#Range: > 0
+		text_opacity = 200
+		#Hp toggle all
+		#Range: 0 ~ 1
+		toggle_all = 0
+		#Hp Bg type
+		#Range: > 0
+		bg_type = 0
+		#Hp type
+		#Range: > 0
+		hp_type = 0
+		#Text x position
+		#Range: > -2147483648
+		text_x = 0
+		#Text y position
+		#Range: > -2147483648
+		text_y = 0
+		#Text Size
+		#Range: > 0
+		text_scale = 100
+		#Frame 2 type
+		#Range: > 0
+		frame2_type = 0
+		#Frame 2 red color
+		#Range: > 0
+		frame2_red_color = 0
+		#Frame 2 green color
+		#Range: > 0
+		frame2_green_color = 0
+		#Frame 2 blue color
+		#Range: > 0
+		frame2_blue_color = 0
+		#Frame 2 Opacity
+		#Range: > 0
+		frame2_opacity = 0
+
+	#Player HUD Hp bar
+	[general.player]
+		#Health Bar Type
+		#Range: > 0
+		type = 12
+		#X Position
+		#Range: > -2147483648
+		x-pos = 0
+		#Y Position
+		#Range: > -2147483648
+		y-pos = 0
+		#scale
+		#Range: > 0
+		scale = 100
+		#Render Distance
+		#Range: > 0
+		render-distance = 1500
+		#Frame Red Color
+		#Range: > 0
+		frame_red = 255
+		#Frame Green Color
+		#Range: > 0
+		frame_green = 255
+		#Frame Blue Color
+		#Range: > 0
+		frame_blue = 255
+		#Frame Opacity
+		#Range: > 0
+		frame_opacity = 255
+		#Hp Red Color
+		#Range: > 0
+		hp_red = 255
+		#Hp Green Color
+		#Range: > 0
+		blue_green = 0
+		#Hp Blue Color
+		#Range: > 0
+		hp_blue = 0
+		#Hp Opacity
+		#Range: > 0
+		hp_opacity = 255
+		#Hp Bg Red Color
+		#Range: > 0
+		hp_bg_red = 249
+		#Hp Bg Green Color
+		#Range: > 0
+		hp_bg_green = 140
+		#Hp Bg Blue Color
+		#Range: > 0
+		hp_bg_blue = 130
+		#Hp Bg Opacity
+		#Range: > 0
+		hp_bg_opacity = 176
+		#Hp Text Red
+		#Range: > 0
+		text_red = 240
+		#Hp Text Green
+		#Range: > 0
+		text_green = 233
+		#Hp Text Blue
+		#Range: > 0
+		text_blue = 255
+		#Hp Text Opacity
+		#Range: > 0
+		text_opacity = 186
+		#Hp toggle all
+		#Range: 0 ~ 1
+		toggle_all = 0
+		#Hp Bg type
+		#Range: > 0
+		bg_type = 0
+		#Hp type
+		#Range: > 0
+		hp_type = 0
+		#Text x position
+		#Range: > -2147483648
+		text_x = 0
+		#Text y position
+		#Range: > -2147483648
+		text_y = 0
+		#Text Size
+		#Range: > 0
+		text_scale = 100
+		#Frame 2 type
+		#Range: > 0
+		frame2_type = 10
+		#Frame 2 red color
+		#Range: > 0
+		frame2_red_color = 255
+		#Frame 2 green color
+		#Range: > 0
+		frame2_green_color = 120
+		#Frame 2 blue color
+		#Range: > 0
+		frame2_blue_color = 165
+		#Frame 2 Opacity
+		#Range: > 0
+		frame2_opacity = 247
+
+	#Player Head Holder
+	[general.player_head_holder]
+		#HUD Frame Type
+		#Range: > 0
+		type = 2
+		#X Position
+		#Range: > -2147483648
+		x-pos = -195
+		#Y Position
+		#Range: > -2147483648
+		y-pos = -92
+		#scale
+		#Range: > 0
+		scale = 96
+		#Render Distance
+		#Range: > 0
+		render-distance = 2000
+		#Frame Red Color
+		#Range: > 0
+		frame_red = 167
+		#Frame Green Color
+		#Range: > 0
+		frame_green = 100
+		#Frame Blue Color
+		#Range: > 0
+		frame_blue = 92
+		#Frame Opacity
+		#Range: > 0
+		frame_opacity = 255
+		#Bg Red Color
+		#Range: > 0
+		bg_red = 0
+		#Bg Green Color
+		#Range: > 0
+		bg_green = 0
+		#Bg Blue Color
+		#Range: > 0
+		bg_blue = 0
+		#Bg Opacity
+		#Range: > 0
+		bg_opacity = 165
+		#Animate Head
+		#Range: 0 ~ 1
+		animate_head = 0
+		#Toggle head
+		#Range: 0 ~ 1
+		toggle_head = 0
+		#Toggle all
+		#Range: 0 ~ 1
+		toggle_all = 0
+		#Head X Position
+		#Range: > -2147483648
+		h-x-pos = -242
+		#Head Y Position
+		#Range: > -2147483648
+		h-y-pos = -115
+		#Head Size
+		#Range: > 0
+		head_size = 43
+		#HUD Bg Type
+		#Range: > 0
+		bgtype = 0
+		#Layer 0, 1 or 2
+		#Range: > 0
+		layer = 0
+		#Frame 2 type
+		#Range: > 0
+		frame2_type = 17
+		#Frame 2 red color
+		#Range: > 0
+		frame2_red_color = 96
+		#Frame 2 red color
+		#Range: > 0
+		frame2_green_color = 255
+		#Frame 2 blue color
+		#Range: > 0
+		frame2_blue_color = 0
+		#Frame 2 Opacity
+		#Range: > 0
+		frame2_opacity = 255
+
