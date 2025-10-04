@@ -2,3 +2,14 @@
 logs
 essential/loader
 saves/world
+essential
+cosmetics
+journeymap
+modernfix/structureCacheV1
+usernamecache.json
+usercache.json
+supportercache.json
+servers.essential.dat
+servers.dat_old
+servers.dat
+.mixin.out/class/net/minecraft/world/level/block
