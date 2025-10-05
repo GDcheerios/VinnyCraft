@@ -41,7 +41,7 @@
   "liquidThreads": 2,
   "bannerPhysicsRange": 48.0,
   "soundVolume": 1.0,
-  "blockPhysicsRange": 96.0,
+  "blockPhysicsRange": 99.5,
   "vineRange": 32.0,
   "waterDensity": 3,
   "snowPhysics": true,
@@ -57,7 +57,7 @@
     "Physics Type": 1,
     "Lifetime": 100.0,
     "Lifetime Variance": 1.0,
-    "Scale": 0.5,
+    "Scale": 0.7999999523162842,
     "Animation": -1
   },
   "mobSettings": {
