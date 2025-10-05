@@ -16,3 +16,8 @@ servers.dat
 saves/testing
 physics-mod-pro-v171i-forge-1.20.1.jar
 .physics_mod_cache/cloth
+crash-reports
+cloth_local
+local
+ops.json
+whitelist.json
