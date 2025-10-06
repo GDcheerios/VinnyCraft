@@ -5,5 +5,7 @@
 	"smartHeuristics": true,
 	"handleSystemMessages": true,
 	"drawShadow": true,
-	"nameAliases": { }
+	"nameAliases": {
+		"server": "lagging"
+	}
 }
