@@ -6,6 +6,7 @@
 	"handleSystemMessages": true,
 	"drawShadow": true,
 	"nameAliases": {
-		"server": "lagging"
+		"server": "lagging",
+		"Pregen": "cancelled"
 	}
 }
