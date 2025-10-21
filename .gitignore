@@ -1,7 +1,6 @@
 
 logs
 essential/loader
-saves/world
 essential
 cosmetics
 journeymap
@@ -13,7 +12,6 @@ servers.essential.dat
 servers.dat_old
 servers.dat
 .mixin.out/class/net/minecraft/world/level/block
-saves/testing
 physics-mod-pro-v171i-forge-1.20.1.jar
 .physics_mod_cache/cloth
 crash-reports
@@ -29,6 +27,7 @@ saves/test
 config/jei/world/server/VinnyCraft_2c723544
 config/jei/world/server/VinnyCraft_2c723544
 config/jei/world/server/VinnyCraft_2c723544
-saves/sigmas
 server.jar
 plugins/
+world
+saves/
