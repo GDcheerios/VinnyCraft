@@ -29,3 +29,6 @@ config/jei/world/server/VinnyCraft_2c723544
 config/jei/world/server/VinnyCraft_2c723544
 config/jei/world/server/VinnyCraft_2c723544
 saves/sigmas
+plugins/Multiverse-Core
+plugins/Multiverse-Inventories
+plugins/bStats
