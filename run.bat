@@ -1,7 +1,7 @@
 @echo off
 title VinnyCraft
 
-set "serverURL=https://mohistmc.com/api/v2/projects/mohist/versions/1.20.1/builds/latest/download"
+set "serverURL=https://api.mohistmc.com/project/mohist/1.20.1/builds/312/download"
 set "PPURL=https://github.com/GDcheerios/PointPlugin/releases/download/v0.0.1/PointPlugin-1.0-SNAPSHOT.jar"
 set "MVIURL=https://cdn.modrinth.com/data/qvdtDX3s/versions/MeYBNg6N/multiverse-inventories-5.2.0.jar"
 set "MVCURL=https://cdn.modrinth.com/data/3wmN97b8/versions/K4FBldrK/multiverse-core-5.3.3.jar"
